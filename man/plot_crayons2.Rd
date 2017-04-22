@@ -4,8 +4,7 @@
 \alias{plot_crayons2}
 \title{Illustration of crayon colors}
 \usage{
-plot_crayons2(method2order = c("hsv", "cluster"), cex = 0.6,
-  mar = rep(0.1, 4))
+plot_crayons2(name = "Bunny")
 }
 \arguments{
 \item{method2order}{method to order colors (\code{"hsv"} or \code{"cluster"})}
@@ -21,7 +20,8 @@ None
 Creates a plot of the crayon colors in \code{\link{brocolors}}
 }
 \examples{
-plot_crayons()
+plot_crayons2('Lera')
+
 
 }
 \references{
