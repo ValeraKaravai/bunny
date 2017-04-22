@@ -6,6 +6,10 @@ Description: Colors that Karl Broman uses in figures.
 Author: Karl W Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
 RoxygenNote: 6.0.1
+Imports:
+	dplyr, 
+	DBI
 Suggests:
-	dplyr
+	dplyr,
+	DBI
 License: MIT
