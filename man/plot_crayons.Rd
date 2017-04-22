@@ -24,13 +24,3 @@ Creates a plot of the crayon colors in \code{\link{brocolors}}
 plot_crayons()
 
 }
-\references{
-\url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
-}
-\seealso{
-\code{\link{brocolors}}
-}
-\author{
-Karl W Broman, \email{kbroman@biostat.wisc.edu}
-}
-\keyword{hplot}

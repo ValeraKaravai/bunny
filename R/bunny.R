@@ -8,18 +8,10 @@
 #'
 #' @return None
 #'
-#' @author Karl W Broman, \email{kbroman@@biostat.wisc.edu}
-#' @references \url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
-#' @seealso \code{\link{brocolors}}
-#' @keywords hplot
-#'
 #' @examples
 #' plot_crayons()
 #'
 #' @export
-#' @importFrom grDevices rgb2hsv
-#' @importFrom graphics par plot rect text
-#'
 plot_crayons <-
   function(method2order=c("hsv", "cluster"), cex=0.6, mar=rep(0.1, 4))
   {
