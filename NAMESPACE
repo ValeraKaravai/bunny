@@ -1,4 +1,2 @@
 # Export all names
 exportPattern(".")
-import(DBI)
-import(dplyr)
