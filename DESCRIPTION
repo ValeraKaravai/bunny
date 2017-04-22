@@ -1,11 +1,9 @@
 Package: bunny
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Mr. Bunny
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Version: 0.1
+Date: 2014-08-27
+Title: Karl Broman Colors
+Description: Colors that Karl Broman uses in figures.
+Author: Karl W Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+RoxygenNote: 6.0.1
+License: MIT
