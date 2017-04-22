@@ -13,8 +13,6 @@
 #'
 #' @seealso \code{\link{ReadRemoteEnvironment}}
 #' @export 
-#' @import dplyr
-#' @import DBI
 
 VerticaFullStatsConnection <- function() {
   vertica <- dbConnect(RPostgreSQL::PostgreSQL(), 
