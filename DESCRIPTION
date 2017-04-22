@@ -5,5 +5,8 @@ Title: Karl Broman Colors
 Description: Colors that Karl Broman uses in figures.
 Author: Karl W Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+Imports:
+	DBI,
+	dplyr
 RoxygenNote: 6.0.1
 License: MIT
