@@ -17,6 +17,7 @@
 #' plot_crayons()
 #'
 #' @export
+#' @import dplyr
 #' @importFrom grDevices rgb2hsv
 #' @importFrom graphics par plot rect text
 #'
