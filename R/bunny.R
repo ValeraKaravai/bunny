@@ -63,26 +63,3 @@ plot_crayons <-
     
     text(x+dx*1.2, y, names(crayons)[ord], cex=cex, adj=c(0, 0.5))
   }
-
-#' Illustration of crayon colors
-#'
-#' Creates a plot of the crayon colors in \code{\link{brocolors}}
-#'
-#' @param method2order method to order colors (\code{"hsv"} or \code{"cluster"})
-#' @param cex character expansion for the text
-#' @param mar margin paramaters; vector of length 4 (see \code{\link[graphics]{par}})
-#'
-#' @return None
-#'
-#' @author Bunny, \email{kbroman@@biostat.wisc.edu}
-#' @references \url{http://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors}
-#' @seealso \code{\link{brocolors}}
-#' @keywords hplot
-#'
-#' @examples
-#' plot_crayons2('Lera')
-#'
-#'
-plot_crayons2 <- function(name = 'Bunny') {
-  paste('Hi', name)
-}
